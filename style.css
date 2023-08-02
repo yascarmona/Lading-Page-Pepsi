@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital@1&family=Kaisei+Decol&family=Poppins:wght@100&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.sec
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0062be;
+    transition: 0.5s;  
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a:hover{
+    transform: scale(11.5em);
+    color: #8f9091;
+    font-size: 20px;
+}
+header .logo
+{
+    position: relative;
+    max-width: 100px;
+}
+header ul 
+{
+    list-style: none;
+    display: flex;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+header ul li a
+{
+    display: inline-block;
+    color: #fff;
+    font-weight: 800;
+    margin-left: 80px;
+    text-decoration: none;
+}
+.content
+{
+    position: relative;
+    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .tetxBox
+{
+    position: relative;
+    max-width: 1200px;
+}
+.content .textBox h2
+{
+    color: #fff;
+    font-size: 90px;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content .textBox h2 span 
+{
+    font-size: 150px;
+}
+.content .textBox p
+{
+    color: #FFF;
+    font-family: Poppins;
+}
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #fff;
+    color: black;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+
+.peps1
+{
+    width: 240px;
+    height: 450px;
+    transform: rotate(-14.744deg);
+    position: absolute;
+    left: 700px;
+    top: 60px;
+}
+.peps2
+{
+    width: 250px;
+    height: 480px;
+    position: absolute;
+    left: 880px;
+    top: 50px;
+}
+.peps3
+{
+    width: 270px;
+    height: 500px;
+    transform: rotate(13.431deg);
+    position: absolute;
+    border-radius: 12px;
+    left: 1100px;
+    top: 60px;
+}
+insta
+{
+    width: 41px;
+    height: 41px;
+}
+face
+{
+    width: 21px;
+    height: 41px;
+}
+tt 
+{
+    width: 41px;
+    height: 33px;
+}

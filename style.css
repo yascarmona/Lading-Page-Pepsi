@@ -128,18 +128,35 @@ header ul li a
     left: 1100px;
     top: 60px;
 }
-insta
+.rodape
 {
+    width: 1520px;
+    height: 77px;
+    flex-shrink: 0;
+    background: #95b2ca;
+}
+.insta
+{
+    position: absolute;
     width: 41px;
     height: 41px;
+    color: black;
+    top: 600px;
+    left: 650px;
 }
-face
+.face
 {
+    position: absolute;
     width: 21px;
     height: 41px;
+    top: 598px;
+    left: 600px;
 }
-tt 
+.tt 
 {
+    position: absolute;
     width: 41px;
     height: 33px;
+    top: 605px;
+    left: 725px;
 }
